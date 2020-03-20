@@ -1,4 +1,4 @@
-@@ -1,207 +0,0 @@
+
 <%-- 
     Document   : feeForm1
     Created on : Mar 12, 2020, 11:42:40 AM
@@ -50,32 +50,32 @@
                                             <td>
                                                 <div class="my-2 ml-2" ><span class="tdinp">SR No.</span></div>
                                                 <div class="wrap-input">
-                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="srno" placeholder="Garden name...">
+                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="srno" placeholder="SR No.">
                                                 </div>
                                                 <div class="my-2 ml-2"><span class="tdinp">Reciept No.</span></div>
                                                 <div class="wrap-input">
-                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="receiptno" placeholder="Owner name...">
+                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="receiptno" placeholder="Receipt no">
                                                 </div>
                                                 <div class="my-2 ml-2" ><span class="tdinp">Student ID</span></div>
                                                 <div class="wrap-input">
-                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="studentid" placeholder="year of establishment...">
+                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="studentid" placeholder="Student ID">
                                                 </div>
                                             </td></tr></table>
                                     <div class="my-2 ml-2"><span>Student Name</span></div>
                                     <div class="wrap-input">
-                                        <input type="text" class="inputcustom" name="studentName" oninput="this.className = ''" placeholder="Email...">
+                                        <input type="text" class="inputcustom" name="studentName" oninput="this.className = ''" placeholder="Student Name">
                                     </div>
                                     <div class="my-2 ml-2"><span>Father Name</span></div>
                                     <div class="wrap-input">
-                                        <input type="text" class="inputcustom" name="fatherName" oninput="this.className = ''" placeholder="Phone no....">
+                                        <input type="text" class="inputcustom" name="fatherName" oninput="this.className = ''" placeholder="Father Name">
                                     </div>
                                     <div class="my-2 ml-2"><span>Mother Name</span></div>
                                     <div class="wrap-input">
-                                        <input type="text" class="inputcustom" name="motherName" oninput="this.className = ''" placeholder="Price per day...">
+                                        <input type="text" class="inputcustom" name="motherName" oninput="this.className = ''" placeholder="Mother Name">
                                     </div>
                                     <div class="my-2 ml-2"><span>DOB</span></div>
                                     <div class="wrap-input">
-                                        <input type="date" class="inputcustom" name="dob" oninput="this.className = ''" placeholder="Price per day...">
+                                        <input type="date" class="inputcustom" name="dob" oninput="this.className = ''" placeholder="DOB">
                                     </div>
 
                                     <div class="form-group">
@@ -90,121 +90,105 @@
 
                                         </div>
                                     </div>
-
-                                    <div class="container">
-                                    </div>
-                                    <div class="tab">
-                                        <div class="my-2 ml-2"><span>Address</span></div>
-                                        <div class="wrap-input">
-                                            <input type="text" class="inputcustom" oninput="this.className = ''" name="address" placeholder="Address...">
-                                        </div>
-                                        <div class="wrap-input">
-                                            <input type="text" class="inputcustom" oninput="this.className = ''" name="city" placeholder="City...">
-                                        </div>
-                                        <div class="wrap-input">
-                                            <input type="text" class="inputcustom" oninput="this.className = ''" name="area" placeholder="Landmark...">
-                                        </div>
-                                        <div class="wrap-input">
-                                            <input type="text" class="inputcustom" oninput="this.className = ''" name="pincode" placeholder="Pincode...">
-                                        </div>
-                                        <div class="my-2 ml-2"><span>Total bookings till date</span></div>
-                                        <div class="wrap-input">
-                                            <input type="number" class="inputcustom" name="noBooking" oninput="this.className = ''" placeholder="total bookingsS...">
-                                        </div>
-                                        <div class="my-2 ml-2"><span>Total no. of rooms</span></div>
-                                        <div class="wrap-input">
-                                            <input type="number" class="inputcustom" name="acRooms" oninput="this.className = ''" placeholder="No. of AC rooms...">
-                                        </div>
-                                        <div class="wrap-input">
-                                            <input type="number" class="inputcustom" name="nonacRooms" oninput="this.className = ''" placeholder="No. of Non AC rooms...">
-                                        </div><br>
-                                        <div class="wrap-input">
-                                            <center> <table><tr><td><div>  
-                                                                <input id="wifi" class="checkbox-custom" name="wifi" type="checkbox" >
-                                                                <label for="wifi" class="checkbox-custom-label">Wifi</label> </div>
-                                                        </td><td style="width:20%"></td><td>
-                                                            <div>
-                                                                <input id="cattering" class="checkbox-custom" name="cattering" type="checkbox">
-                                                                <label for="cattering" class="checkbox-custom-label">Cattering</label>
-                                                            </div>
-                                                        </td></tr> </table></center>
-                                        </div>
-                                    </div>
-                                    <div class="container">
-                                        <div class="tab">
-                                            <div class="my-2 ml-2"><span style="font-size: 25px">Select available events</span></div>
-                                            <div class="wrap-input eventss" style="font-size: 14px;font-weight: 300">
-                                                <div>
-                                                    <input id="birthday" class="checkbox-custom" name="birthday" type="checkbox">
-                                                    <label for="birthday" class="checkbox-custom-label">Birthday party</label>
+                                </div>
+                                   <div class="container">
+                            <div class="tab">
+                                <table><tr>
+ <td>
+                                                <div class="my-2 ml-2" ><span class="tdinp">Class</span></div>
+                                                <div class="wrap-input">
+                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="class" placeholder="Class">
                                                 </div>
-                                                <div>
-                                                    <input id="reception" class="checkbox-custom" name="reception" type="checkbox">
-                                                    <label for="reception" class="checkbox-custom-label">Reception</label>
+                                                <div class="my-2 ml-2"><span class="tdinp">Section</span></div>
+                                                <div class="wrap-input">
+                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="section" placeholder="Section">
                                                 </div>
-                                                <div>
-                                                    <input id="marriage" class="checkbox-custom" name="marriage" type="checkbox">
-                                                    <label for="marriage" class="checkbox-custom-label">Marriage</label>
+                                                <div class="my-2 ml-2" ><span class="tdinp">Caste</span></div>
+                                                <div class="wrap-input">
+                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="caste" placeholder="Caste">
                                                 </div>
-                                                <div>
-                                                    <input id="aniversary" class="checkbox-custom" name="aniversary" type="checkbox">
-                                                    <label for="aniversary" class="checkbox-custom-label">Aniversary</label>
+                                                <div class="my-2 ml-2" ><span class="tdinp">Religious</span></div>
+                                                <div class="wrap-input">
+                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="Religious" placeholder="Caste">
                                                 </div>
-                                                <div>
-                                                    <input id="meeting" class="checkbox-custom" name="meeting" type="checkbox">
-                                                    <label for="meeting" class="checkbox-custom-label">Meeting</label>
-                                                </div>
-                                                <div>
-                                                    <input id="kitty" class="checkbox-custom" name="kitty" type="checkbox">
-                                                    <label for="kitty" class="checkbox-custom-label">Kitty party</label>
-                                                </div>    <div>
-                                                    <input id="bachelorp" class="checkbox-custom" name="bachelorp" type="checkbox">
-                                                    <label for="bachelorp" class="checkbox-custom-label">Bachelor party</label>
-                                                </div>
-                                                <div>
-                                                    <input id="cocktailp" class="checkbox-custom" name="cocktailp" type="checkbox">
-                                                    <label for="cocktailp" class="checkbox-custom-label">Cocktail party</label>
-                                                </div>
-                                                <div>
-                                                    <input id="conference" class="checkbox-custom" name="conference" type="checkbox">
-                                                    <label for="conference" class="checkbox-custom-label">Conference</label>
-                                                </div>
-                                                <div>
-                                                    <input id="socialG" class="checkbox-custom" name="socialG" type="checkbox">
-                                                    <label for="socialG" class="checkbox-custom-label">Social gathering</label>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="container"><br>
-                                        <div style="float:right;">
-                                            <button type="button" id="prevBtn" onclick="nextPrev(-1)" style="display: none;">Previous</button>
-                                            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
-                                        </div>
-                                    </div>
-                                    <!-- Circles which indicates the steps of the form: -->
-                                    <div class="container">
-                                        <div style="text-align:center;margin-top:40px;">
-                                            <span class="step active"></span>
-                                            <span class="step"></span>
-                                            <span class="step"></span>
-
-                                        </div>
-                                    </div>
-                                    </form>
+ </td></tr></table>                           </div>
+                                 </div>
+                           
+                            <div class="container">
+                            <div class="tab">
+                                <div class="my-2 ml-2"><span>Address</span></div>
+                                <div class="wrap-input">
+                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="address" placeholder="Address...">
+                                </div>
+                                <div class="wrap-input">
+                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="city" placeholder="City...">
+                                </div>
+                                <div class="wrap-input">
+                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="area" placeholder="District...">
+                                </div>
+                                <div class="wrap-input">
+                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="pincode" placeholder="Pincode...">
+                                </div>
+                                <div class="my-2 ml-2"><span>Email</span></div>
+                                <div class="wrap-input">
+                                    <input type="email" class="inputcustom" name="email" oninput="this.className = ''" placeholder="Email">
+                                </div>
+                                <div class="my-2 ml-2"><span>Contact No.</span></div>
+                                <div class="wrap-input">
+                                    <input type="number" class="inputcustom" name="contactNo" oninput="this.className = ''" placeholder="Contact No.">
                                 </div>
                             </div>
+                                 </div>
+                            <div class="container">
+                                    <div class="tab">
+                                        <table><tr>
+                                                <td>
+                                                    <div class="my-2 ml-2" ><span class="tdinp">Bank Detail</span></div>
+                                                    <div class="wrap-input">
+                                                        <input type="text" class="inputcustom" oninput="this.className = ''" name="bankdetail" placeholder="Bank Detail">
+                                                    </div>
+                                                    <div class="my-2 ml-2"><span class="tdinp">Bank Name</span></div>
+                                                    <div class="wrap-input">
+                                                        <input type="text" class="inputcustom" oninput="this.className = ''" name="bankname" placeholder="Bank Name">
+                                                    </div>
+                                                    <div class="my-2 ml-2" ><span class="tdinp">Bank A/c No</span></div>
+                                                    <div class="wrap-input">
+                                                        <input type="text" class="inputcustom" oninput="this.className = ''" name="bankac" placeholder="Bank A/c">
+                                                    </div>
+                                                    <div class="my-2 ml-2" ><span class="tdinp">IFSC Code</span></div>
+                                                    <div class="wrap-input">
+                                                        <input type="text" class="inputcustom" oninput="this.className = ''" name="ifsccode" placeholder="IFSC Code">
+                                                    </div>
+                                                </td></tr></table>                           </div>
+                                </div>
+                            <div class="container"><br>
+                                <div style="float:right;">
+                                    <button type="button" id="prevBtn" onclick="nextPrev(-1)" style="display: none;">Previous</button>
+                                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                                </div>
+                            </div>
+                            <!-- Circles which indicates the steps of the form: -->
+                            <div class="container">
+                                <div style="text-align:center;margin-top:40px;">
+                                    <span class="step active"></span>
+                                    <span class="step"></span>
+                                    <span class="step"></span>
+
+                                </div>
+                            </div>
+                        </form>
                     </div>
-
                 </div>
-            </div> 
-                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            </div>
 
-                <script src="resources/js/Gsignup.js"></script>
-                
-            </body>
-                </html>
+        </div>
+    </div> 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="resources/js/Gsignup.js"></script>
+
+</body>
+</html>
