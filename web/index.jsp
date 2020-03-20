@@ -15,9 +15,6 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<<<<<<< HEAD
-        <title>JSP Page</title>
-    </head>
         <title>Front Page</title>
     </head>
     <body>
