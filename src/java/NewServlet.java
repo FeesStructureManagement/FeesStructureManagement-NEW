@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletResponse;
  * @author Praveen Sharma
  */
 public class NewServlet extends HttpServlet {
-
     /**
      * Processes requests for both HTTP
      * <code>GET</code> and
