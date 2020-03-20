@@ -15,17 +15,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<<<<<<< HEAD
         <title>JSP Page</title>
     </head>
-    <body>
-        <h1>Hello World!praveen Hello beta PAdhoooo</h1>
-        <a href="newjsp.jsp">new </a>
-=======
-        <title>Front Page</title>
+        <h1>Hello World!praveen Hello beta PAdhoooo</h1>  
     </head>
     <body>
-        
->>>>>>> 435314461489d1c6abc044301585a08fb0e2bb9c
+        <a href="newjsp.jsp">new </a>
     </body>
 </html>

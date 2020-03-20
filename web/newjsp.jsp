@@ -1,4 +1,4 @@
-@@ -1,207 +0,0 @@
+
 <%-- 
     Document   : feeForm1
     Created on : Mar 12, 2020, 11:42:40 AM
@@ -50,32 +50,32 @@
                                             <td>
                                                 <div class="my-2 ml-2" ><span class="tdinp">SR No.</span></div>
                                                 <div class="wrap-input">
-                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="srno" placeholder="Garden name...">
+                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="srno" placeholder="SR No.">
                                                 </div>
                                                 <div class="my-2 ml-2"><span class="tdinp">Reciept No.</span></div>
                                                 <div class="wrap-input">
-                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="receiptno" placeholder="Owner name...">
+                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="receiptno" placeholder="Reciept No.">
                                                 </div>
                                                 <div class="my-2 ml-2" ><span class="tdinp">Student ID</span></div>
                                                 <div class="wrap-input">
-                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="studentid" placeholder="year of establishment...">
+                                                    <input type="text" class="inputcustom" oninput="this.className = ''" name="studentid" placeholder="Student ID">
                                                 </div>
                                             </td></tr></table>
                                     <div class="my-2 ml-2"><span>Student Name</span></div>
                                     <div class="wrap-input">
-                                        <input type="text" class="inputcustom" name="studentName" oninput="this.className = ''" placeholder="Email...">
+                                        <input type="text" class="inputcustom" name="studentName" oninput="this.className = ''" placeholder="Student Name">
                                     </div>
                                     <div class="my-2 ml-2"><span>Father Name</span></div>
                                     <div class="wrap-input">
-                                        <input type="text" class="inputcustom" name="fatherName" oninput="this.className = ''" placeholder="Phone no....">
+                                        <input type="text" class="inputcustom" name="fatherName" oninput="this.className = ''" placeholder="Father Name">
                                     </div>
                                     <div class="my-2 ml-2"><span>Mother Name</span></div>
                                     <div class="wrap-input">
-                                        <input type="text" class="inputcustom" name="motherName" oninput="this.className = ''" placeholder="Price per day...">
+                                        <input type="text" class="inputcustom" name="motherName" oninput="this.className = ''" placeholder="Mother Name">
                                     </div>
                                     <div class="my-2 ml-2"><span>DOB</span></div>
                                     <div class="wrap-input">
-                                        <input type="date" class="inputcustom" name="dob" oninput="this.className = ''" placeholder="Price per day...">
+                                        <input type="date" class="inputcustom" name="dob" oninput="this.className = ''" placeholder="DOB">
                                     </div>
 
                                     <div class="form-group">
@@ -90,11 +90,12 @@
 
                                         </div>
                                     </div>
-
+                                </div>
+                            </div>
                                     <div class="container">
-                                    </div>
+                                
                                     <div class="tab">
-                                        <div class="my-2 ml-2"><span>Address</span></div>
+                                        <div class="my-2 ml-2"><span>Class</span></div>
                                         <div class="wrap-input">
                                             <input type="text" class="inputcustom" oninput="this.className = ''" name="address" placeholder="Address...">
                                         </div>
@@ -130,6 +131,7 @@
                                                         </td></tr> </table></center>
                                         </div>
                                     </div>
+                    </div>
                                     <div class="container">
                                         <div class="tab">
                                             <div class="my-2 ml-2"><span style="font-size: 25px">Select available events</span></div>
