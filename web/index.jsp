@@ -18,14 +18,10 @@
 <<<<<<< HEAD
         <title>JSP Page</title>
     </head>
-    <body>
-        <h1>Hello World!praveen Hello dfghjkShutup</h1>
-        <a href="newjsp.jsp">new </a>
-=======
         <title>Front Page</title>
     </head>
     <body>
-        
->>>>>>> 435314461489d1c6abc044301585a08fb0e2bb9c
+        <h1>Hello World!praveen Hello dfghjkShutup</h1>
+        <a href="newjsp.jsp">new </a>
     </body>
 </html>
